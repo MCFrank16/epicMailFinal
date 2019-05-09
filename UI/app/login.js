@@ -5,7 +5,7 @@ const emeli = document.querySelector('#userEmail');
 const passKey = document.querySelector('#passWadi');
 const topError = document.getElementById('topError');
 
-const localhost = 'http://localhost:8080/api/v1';
+const localhost = 'https://epik-mail-v2.herokuapp.com/api/v1/';
 
 signInBtn.onclick = () => {
   const Email = emeli.value;

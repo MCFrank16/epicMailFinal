@@ -27,7 +27,7 @@ const signUpBtn = document.getElementById('sign-up');
 const topError2 = document.getElementById('topError');
 
 
-const localhost2 = 'http://localhost:8080/api/v1';
+const localhost2 = 'https://epik-mail-v2.herokuapp.com/api/v1/';
 
 firstName.onchange = () => {
   const namePattern = /^[a-zA-Z]{4,}[a-zA-Z ]*$/;
